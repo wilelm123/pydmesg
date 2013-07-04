@@ -14,7 +14,7 @@ import optparse
 import glob
 from subprocess import Popen,PIPE
 
-__author__="chenlei@jike.com"
+__author__ = 'gongxiangfeng@jike.com (Chris)'
 
 def pyShell(cmd,timeout=None):
     p_out=''
