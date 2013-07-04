@@ -10,14 +10,11 @@ import time
 import optparse
 import commands
 import logging
+import inspect
 from termcolor import colored,cprint
 
 def lineno():
-    try:
-        raise Exception
-    except Exception:
-        f=sys.exc_info()[2].tb_frame.f_back
-    return f.f_lineno
+   return inspect.currentframe().f_back.f_lineno
 
 def debug(msg,lineno):
     if options.debug:
