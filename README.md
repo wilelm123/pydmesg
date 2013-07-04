@@ -3,7 +3,7 @@
 
 
 
-Before you use this tool, make sure you have install
+Before you use this tool, make sure you have installed
 
 the termcolor lib
 
